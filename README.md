@@ -1,4 +1,4 @@
-#OpenLayers 3 for node.js. Have fun.
+#OpenLayers 3 for node.js.
 
 Thanks to all giants I stand on.
 
