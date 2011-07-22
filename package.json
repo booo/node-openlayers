@@ -1,45 +1,45 @@
 {
-	"name": "openlayers",
-	"version": "3.0.0",
-	"description": "openlayers for nodejs",
-	"homepage": "",
-	"keywords": ["openlayers", "node"],
-	"author": {
-		"name": "",
-		"email": "",
-		"web": ""
-	},
-	"maintainers": [
-		{
-		"name": "",
-  		"email": "",
-  		"web": ""
-		}
-	],
-	"contributors": [
-		{
-		"name": "",
-  		"email": "",
-  		"web": ""
-		}
-	],
-	"bugs": {
-		"web": ""
-	},
-	"licenses": [],
-	"repository" : {},
-	"dependencies": {
-	},
-	"engines" : {
-		"node": ">=0.4.5"
-	},
+    "name": "openlayers",
+    "version": "3.0.0",
+    "description": "openlayers for nodejs",
+    "homepage": "https://github.com/booo/node-openlayers",
+    "keywords": ["openlayers", "node"],
+    "author": {
+        "name": "",
+        "email": "",
+        "web": ""
+    },
+    "maintainers": [
+        {
+        "name": "",
+        "email": "",
+        "web": ""
+        }
+    ],
+    "contributors": [
+        {
+        "name": "",
+        "email": "",
+        "web": ""
+        }
+    ],
+    "bugs": {
+        "web": ""
+    },
+    "licenses": [],
+    "repository" : {},
+    "dependencies": {
+    },
+    "engines" : {
+        "node": ">=0.4.5"
+    },
   "main": "./lib/OpenLayers",
   "directories": {
   },
-	"scripts": {
-		"install": ""
-	},
-  "repository": "",
+    "scripts": {
+        "install": ""
+    },
+  "repository": "git@github.com:booo/node-openlayers.git",
   "dependencies": {
     "jsdom": "*"
   }
