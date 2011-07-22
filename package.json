@@ -1,0 +1,46 @@
+{
+	"name": "openlayers",
+	"version": "3.0.0",
+	"description": "openlayers for nodejs",
+	"homepage": "",
+	"keywords": ["openlayers", "node"],
+	"author": {
+		"name": "",
+		"email": "",
+		"web": ""
+	},
+	"maintainers": [
+		{
+		"name": "",
+  		"email": "",
+  		"web": ""
+		}
+	],
+	"contributors": [
+		{
+		"name": "",
+  		"email": "",
+  		"web": ""
+		}
+	],
+	"bugs": {
+		"web": ""
+	},
+	"licenses": [],
+	"repository" : {},
+	"dependencies": {
+	},
+	"engines" : {
+		"node": ">=0.4.5"
+	},
+  "main": "./lib/OpenLayers",
+  "directories": {
+  },
+	"scripts": {
+		"install": ""
+	},
+  "repository": "",
+  "dependencies": {
+    "jsdom": "*"
+  }
+}
