@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+// stolen from: http://trac.osgeo.org/openlayers/browser/trunk/openlayers/tests/node.js/run-test.js?rev=11551
 // Requires:
 /// 0. nodejs
 //  1. jsdom installed (npm install jsdom)
