@@ -2,7 +2,7 @@ XMLHttpRequest = function() {
     return {
     'open': function() {  },
     'send': function() {  }
-    }
+    };
 };
 
 navigator = {
@@ -11,7 +11,7 @@ navigator = {
   'appVersion': '0.1',
   'language': 'en',
   'userLanguage': 'en'
-}
+};
 
 element = function(type) {
     type = type || "";
@@ -60,12 +60,12 @@ element = function(type) {
                 } else {
                     var elem = this.childNodes[i].getElementById(id);
                     if (elem) {
-                        return elem
+                        return elem;
                     }
                 }
             }
         }
-    }
+    };
 };
 
 document = element();
@@ -75,7 +75,7 @@ document.createElement = function(type) {
 document.createTextNode = function(text) {
     var e = element("Text");
     e.innerHTML = text;
-}
+};
 
 document.appendChild(element("head"));
 document.body = element("body");
@@ -87,7 +87,7 @@ window = {
     'getSelection': function() {
         return {
             collapseToStart: function() {}
-        }
+        };
     },
     document: document,
     navigator: navigator,
