@@ -1,46 +1,26 @@
 {
     "name": "openlayers",
     "version": "3.0.0",
-    "description": "openlayers for nodejs",
+    "description": "openlayers 3 for nodejs",
     "homepage": "https://github.com/booo/node-openlayers",
     "keywords": ["openlayers", "node"],
     "author": {
-        "name": "",
-        "email": "",
-        "web": ""
+        "name": "Philipp Borgers",
+        "email": "borgers@mi.fu-berlin.de"
     },
-    "maintainers": [
-        {
-        "name": "",
-        "email": "",
-        "web": ""
-        }
-    ],
-    "contributors": [
-        {
-        "name": "",
-        "email": "",
-        "web": ""
-        }
-    ],
     "bugs": {
-        "web": ""
+        "web": "https://github.com/booo/node-openlayers/issues"
     },
     "licenses": [],
-    "repository" : {},
-    "dependencies": {
-    },
     "engines" : {
         "node": ">=0.4.5"
     },
-  "main": "./lib/OpenLayers",
-  "directories": {
-  },
+    "main": "./lib/OpenLayers",
     "scripts": {
         "install": ""
     },
-  "repository": "git@github.com:booo/node-openlayers.git",
-  "dependencies": {
-    "jsdom": "*"
-  }
+    "repository": "git@github.com:booo/node-openlayers.git",
+    "dependencies": {
+        "jsdom": "*"
+    }
 }
